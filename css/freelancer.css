@@ -2721,6 +2721,7 @@ fieldset:disabled a.btn {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
+  background-color: #2c3e50;
 }
 
 .btn-outline-light:hover {
@@ -7859,6 +7860,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+  display: flex;
 }
 
 @media (min-width: 576px) {
