@@ -44,11 +44,6 @@ export default function FloatingActionButtons() {
                         </Fab>
                 </Grid>
                 <Grid item md={1} sm={1} xs={2} className={cssClasses.gridItem}>
-                        <Fab variant="round" size="small" color="primary" href="https://github.com/kansd1401/" target="_blank">
-                            <GitHubIcon ></GitHubIcon>
-                        </Fab>
-                </Grid>
-                <Grid item md={1} sm={1} xs={2} className={cssClasses.gridItem}>
                 
                         <Fab variant="round" size="small" color="primary" href="https://www.linkedin.com/in/sanjeet-kang-4948b7198/" target="_blank">
                             <LinkedInIcon></LinkedInIcon>
