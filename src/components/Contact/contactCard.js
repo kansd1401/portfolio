@@ -33,7 +33,7 @@ function ContactCard(props)
     const handleSubmit = (evt) => {
       evt.preventDefault();
   
-      alert(`An email has been sent to Abdul Rehman`);
+      alert(`An email has been sent to `);
   
       console.log(emailInfo);
   

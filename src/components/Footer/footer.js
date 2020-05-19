@@ -39,7 +39,7 @@ export default function FloatingActionButtons() {
                     <p>follow me on: </p>
                 </Grid>
                 <Grid item md={1} sm={1} xs={2} className={cssClasses.gridItem}>
-                        <Fab variant="round" size="small" color="primary" href="https://github.com/Abdul-Sen" target="_blank">
+                        <Fab variant="round" size="small" color="primary" href="https://github.com/kansd1401" target="_blank">
                             <GitHubIcon ></GitHubIcon>
                         </Fab>
                 </Grid>
