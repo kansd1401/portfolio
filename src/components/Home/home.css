@@ -1,0 +1,56 @@
+
+@media (min-width:960px){
+    #landing {
+        background-image: url(dpcc.png) ;
+        background-repeat: no-repeat;
+        background-position: 80% 70%;
+        background-size: 300px;
+        padding: 200px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    /* #titleContainer {
+        margin-top: 15%;
+    }
+    #landing {
+        text-align: center;
+    } */
+    #landingOverlay {
+        padding-bottom: 200px;
+        padding-top: 200px;
+        text-align: center;
+    }
+}
+
+#sub {
+    font-weight: 300;
+}
+#title{
+    margin: 20px 20px 20px 0px;
+    font-weight: 300;
+}
+#landingOverlay {
+    background: linear-gradient(200deg, #C9D6FF, #E2E2E2, rgb(209, 184, 184));
+    background-size: 200% 200%;
+    
+    animation: fluidGrid 15s infinite;
+}
+@keyframes fluidGrid {
+    0%{background-position:0% 97%}
+    50%{background-position:100% 4%}
+    100%{background-position:0% 97%}
+}
+
+
+p {
+    text-align: justify;
+}
+img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-container {
+    text-align: center;
+    background-color:#FE6B8B;
+}

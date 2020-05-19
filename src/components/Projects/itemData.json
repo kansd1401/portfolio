@@ -1,0 +1,70 @@
+{
+    "project": [
+        {
+            "tileTile":{
+                "thumbnail": "/images/everything-spotify.png",
+                "projectLink": "https://github.com/kansd1401/Everything-Spotify",
+                "demoLink": "https://everything-spotify.herokuapp.com/",
+                "media": "",
+                "title": "EVERYTHING-SPOTIFY",
+                "description": "Everything-Spotify uses Spotify-API to give you an in-depth analysis of songs you listen to and shows your top tracks and artists for different periods of time.    ",
+                "tags": ["NodeJs", "jQuery", "Javascript", "Reactjs", "Bootstrap", "SASS", "Heroku"]
+            }
+        },
+        {
+            "tileTile":{
+                "thumbnail": "/images/speedweather.png",
+                "projectLink": "https://github.com/kansd1401/SpeedWeather",
+                "demoLink": "https://speedweather.herokuapp.com/",
+                "media": "",
+                "title": "SpeedWeather",
+                "description": "SpeedWeather is a simple web app that shows the current weather data of some cities in BC superimposed on its map.",
+                "tags": ["NodeJs", "jQuery", "Javascript", "Reactjs", "MapBox", "SASS"]
+            }
+        },
+        {
+            "tileTile":{
+                "thumbnail": "/images/barber-scheduler.png",
+                "title": "Barber Scheduler",
+                "projectLink": "https://github.com/kansd1401/Barber-Scheduler",
+                "demoLink": "",
+                "media": "",
+                "description": "Barber Scheduler is a simple BarberShop website made with react where the owner can track appointments and see his stores performances.",
+                "tags": ["GoLang", "Reactjs", "Gin", "Gorm", "Axios", "PSQL"]
+            }
+        },
+        {
+            "tileTile":{
+                "thumbnail": "/images/b3.png",
+                "title": "Boats Boats Boats (B3)",
+                "projectLink": "https://github.com/kansd1401/b3",
+                "demoLink": "http://b3.rocks/",
+                "media": "",
+                "description": "B3 is a 2D top-down naval multiplayer shooter where you battle against all other players to stay on top of the leaderboard. It has four types of boats each of them has its own unique primary weapons and special abilities.",
+                "tags": ["Godot Engine", "Gdscript", "AWS", "Express", "Nodejs", "JavaScript"]
+            }
+        },
+        {
+            "tileTile":{
+                "thumbnail": "/images/jungle.png",
+                "title": "Jungle",
+                "projectLink": "https://github.com/kansd1401/Jungle",
+                "demoLink": "",
+                "media": "",
+                "description": "A mini e-commerce application built with Rails 4.2.",
+                "tags": ["Ruby on Rails", "ActiveRecord's", "PSQL"]
+            }
+        },
+        {
+            "tileTile":{
+                "thumbnail": "/images/interview-scheduler.png",
+                "title": "Interview Scheduler",
+                "projectLink": "https://github.com/kansd1401/interview-scheduler",
+                "demoLink": "",
+                "media": "",
+                "description": "Allows users to book and cancel interviews and combine concise API with a WebSocket server to build a realtime experience.",
+                "tags": ["React", "Axios", "Storybook", "Jest", "Websockets", "Cypress", "Babel"]
+            }
+        }
+    ]
+}
