@@ -57,7 +57,7 @@ export default function CustomizedExpansionPanels() {
   return (
     <div>
         <p>
-        Held a volunteer position as a software developer at CrowdDoing. Handled programming duties including app design and record keeping. Some highlights include:
+        Volunteering as a software developer at CrowdDoing. Handling programming duties including app design and record keeping. Some highlights include:
         </p>
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
