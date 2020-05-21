@@ -2,7 +2,8 @@ import React, { Fragment } from 'react';
 import { Container, Grid, Typography, Box } from '@material-ui/core';
 import ProjectInfo from './itemData.json';
 import RenderItemWhole from './RenderItemWhole/renderItemWhole';
-import HooppStatic from './HooppStatic/HooppStatic.js';
+import HooppStatic_1 from './HooppStatic/HooppStatic_1';
+import HooppStatic_2 from './HooppStatic/HooppStatic_2';
 import Fade from 'react-reveal/Fade';
 
 
@@ -19,13 +20,22 @@ function Projects(props) {
               </Typography>
             </Grid>
             <Grid item md={6} sm={12} xs={12}>
-              <Typography variant={"h6"} ><Box marginTop={"20px"} marginBottom={"20px"} fontWeight={"bolder"}>Software Developer - CrowdDoing, San Francisco USA (Remote)</Box></Typography>
+              <Typography variant={"h6"} ><Box marginTop={"20px"} marginBottom={"20px"} fontWeight={"bolder"}>Web Developer - Tronologics, Vancouver BC Canada</Box></Typography>
             </Grid>
             <Grid item md={2} sm={12} xs={12}>
-              <Typography variant={"body2"} ><Box marginTop={"20px"} textAlign={"end"}></Box></Typography>
+              <Typography variant={"body2"} ><Box marginTop={"20px"} textAlign={"end"}>Jan 2020 - Current</Box></Typography>
             </Grid>
             <Grid item md={10} sm={12}>
-              <HooppStatic></HooppStatic>
+              <HooppStatic_1></HooppStatic_1>
+            </Grid>
+            <Grid item md={6} sm={12} xs={12}>
+              <Typography variant={"h6"} ><Box marginTop={"20px"} marginBottom={"20px"} fontWeight={"bolder"}>Software Developer - CrowdDoing, San Francisco USA (Part-Time)</Box></Typography>
+            </Grid>
+            <Grid item md={2} sm={12} xs={12}>
+              <Typography variant={"body2"} ><Box marginTop={"20px"} textAlign={"end"}>Mar 2020 - Current</Box></Typography>
+            </Grid>
+            <Grid item md={10} sm={12}>
+              <HooppStatic_2></HooppStatic_2>
             </Grid>
           </Grid>
         <Grid container direction="column" alignItems="center">
