@@ -2,6 +2,17 @@
     "project": [
         {
             "tileTile":{
+                "thumbnail": "/images/image-search.png",
+                "projectLink": "https://github.com/kansd1401/Image-Search",
+                "demoLink": "https://image-search-22.herokuapp.com/",
+                "media": "",
+                "title": "Image-Search",
+                "description": "Image-Search is a simple web app that uses Unsplash's api to search for images with queries in and is neatly formatted.",
+                "tags": ["NodeJs", "Axios", "Javascript", "Reactjs", "Bootstrap", "SASS"]
+            }
+        },
+        {
+            "tileTile":{
                 "thumbnail": "/images/everything-spotify.png",
                 "projectLink": "https://github.com/kansd1401/Everything-Spotify",
                 "demoLink": "https://everything-spotify.herokuapp.com/",
@@ -9,17 +20,6 @@
                 "title": "EVERYTHING-SPOTIFY",
                 "description": "Everything-Spotify uses Spotify-API to give you an in-depth analysis of songs you listen to and shows your top tracks and artists for different periods of time.    ",
                 "tags": ["NodeJs", "jQuery", "Javascript", "Reactjs", "Bootstrap", "SASS", "Heroku"]
-            }
-        },
-        {
-            "tileTile":{
-                "thumbnail": "/images/speedweather.png",
-                "projectLink": "https://github.com/kansd1401/SpeedWeather",
-                "demoLink": "https://speedweather.herokuapp.com/",
-                "media": "",
-                "title": "SpeedWeather",
-                "description": "SpeedWeather is a simple web app that shows the current weather data of some cities in BC superimposed on its map.",
-                "tags": ["NodeJs", "jQuery", "Javascript", "Reactjs", "MapBox", "SASS"]
             }
         },
         {
