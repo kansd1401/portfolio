@@ -1,16 +1,16 @@
 {
     "frontend":{
-        "Core": ["Modern ES6","CSS3","HTML5"],
+        "Core": ["Modern ES6","CSS3","HTML5", "Event Modeling"],
         "Web frameworks": ["Reactjs","jQuery","React Native"],
         "Styling": ["Bootstrap 4", "Material UI","SASS"],
         "State management solutions": ["Redux"],
         "Testing": ["Chai", "Mocha", "Jest", "Cypress", "Capybara"],
-        "Design": ["Adobe InDesign", "Adobe Photoshop"]
+        "Design": ["InDesign", "Photoshop","Figma"]
     },
     "backend":{
-        "Languages": ["Javascript", "Ruby", "Python", "C++", "Java", "GoLang"],
-        "Frameworks, Libraries and Environments": [ "NodeJS", "Ruby on Rails", "Ajax", "Express", "EJS", "Socket.IO", "Axios", "Godot", "ActiveRecord", "Gin", "Gorm"],
-        "Databases": ["Firestore","PostgreSQL", "NoSQL"],
-        "Tools": ["GitHub","Git","GitLab","Trello","AWS EC2","Heroku", "Firebase"]
+        "Languages": ["Javascript", "Ruby", "Python", "GoLang"],
+        "Frameworks, Libraries and Environments": [ "NodeJS", "FastAPI", "Ruby on Rails", "Socket.IO", "Godot", "Gin", "Gorm"],
+        "Databases": ["Firestore","PostgreSQL", "NoSQL", "MySQL"],
+        "Tools": ["GitHub","Git","GitLab","Trello","AWS EC2","Heroku", "Firebase", "Jira", "Monday"]
     }
 }

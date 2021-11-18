@@ -38,7 +38,7 @@
                 "thumbnail": "/images/b3.png",
                 "title": "Boats Boats Boats (B3)",
                 "projectLink": "https://github.com/kansd1401/b3",
-                "demoLink": "http://b3.rocks/",
+                "demoLink": "",
                 "media": "",
                 "description": "B3 is a 2D top-down naval multiplayer shooter where you battle against all other players to stay on top of the leaderboard. It has four types of boats each of them has its own unique primary weapons and special abilities.",
                 "tags": ["Godot Engine", "Gdscript", "AWS", "Express", "Nodejs", "JavaScript"]
