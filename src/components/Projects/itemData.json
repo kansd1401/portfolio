@@ -4,7 +4,7 @@
             "tileTile":{
                 "thumbnail": "/images/image-search.png",
                 "projectLink": "https://github.com/kansd1401/Image-Search",
-                "demoLink": "https://image-search-22.herokuapp.com/",
+                "demoLink": "",
                 "media": "",
                 "title": "Image-Search",
                 "description": "Image-Search is a simple web app that uses Unsplash's api to search for images with queries in and is neatly formatted.",
@@ -15,7 +15,7 @@
             "tileTile":{
                 "thumbnail": "/images/everything-spotify.png",
                 "projectLink": "https://github.com/kansd1401/Everything-Spotify",
-                "demoLink": "https://everything-spotify.herokuapp.com/",
+                "demoLink": "",
                 "media": "",
                 "title": "EVERYTHING-SPOTIFY",
                 "description": "Everything-Spotify uses Spotify-API to give you an in-depth analysis of songs you listen to and shows your top tracks and artists for different periods of time.    ",
