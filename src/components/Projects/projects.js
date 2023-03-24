@@ -32,6 +32,27 @@ function Projects(props) {
                 marginBottom={"20px"}
                 fontWeight={"bolder"}
               >
+                Full Stack Developer - Cyberpatient, Vancouver BC Canada
+              </Box>
+            </Typography>
+          </Grid>
+          <Grid item md={2} sm={12} xs={12}>
+            <Typography variant={"body2"}>
+              <Box marginTop={"20px"} textAlign={"end"}>
+                Jan 2022 - Current
+              </Box>
+            </Typography>
+          </Grid>
+          <Grid item md={10} sm={12}>
+            <HooppStatic_2></HooppStatic_2>
+          </Grid>
+          <Grid item md={6} sm={12} xs={12}>
+            <Typography variant={"h6"}>
+              <Box
+                marginTop={"20px"}
+                marginBottom={"20px"}
+                fontWeight={"bolder"}
+              >
                 Full Stack Developer - Cocoflo Innovations, Vancouver BC Canada
               </Box>
             </Typography>
@@ -39,7 +60,7 @@ function Projects(props) {
           <Grid item md={2} sm={12} xs={12}>
             <Typography variant={"body2"}>
               <Box marginTop={"20px"} textAlign={"end"}>
-                May 2020 - Current
+                May 2020 - Jan 2022
               </Box>
             </Typography>
           </Grid>
@@ -47,6 +68,7 @@ function Projects(props) {
             <HooppStatic_1></HooppStatic_1>
           </Grid>
         </Grid>
+        
         <Grid container direction="column" alignItems="center">
           <Grid item md={12}>
             <Typography variant="h3" gutterBottom>

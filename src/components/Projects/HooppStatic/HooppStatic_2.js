@@ -53,15 +53,15 @@ export default function CustomizedExpansionPanels() {
   const handleChange = panel => (event, newExpanded) => {
     setExpanded(newExpanded ? panel : false);
   };
-
+ 
   return (
     <div>
         <p>
-        Volunteering as a software developer at CrowdDoing. Handling programming duties including app design and record keeping. Some highlights include:
+          Cyberpatient helps students practice multiple clinical skills on 130+ patients in an interactive virtual training hospital.
         </p>
       <ExpansionPanel square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <ExpansionPanelSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography><li>Researching, building an MVP, and setting up the production version of microservices architecture.</li></Typography>
+          <Typography><li>Developed a data statistics feature that enables instructors to monitor student scores, facilitating informed decision-making and performance tracking.</li></Typography>
         </ExpansionPanelSummary>
         {/* <ExpansionPanelDetails>
           <Typography>
@@ -73,7 +73,7 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <ExpansionPanelSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography><li>Worked with 10+ team members to produce creative, efficient solutions.</li></Typography>
+          <Typography><li>Optimized the codebase by removing the use of a global state management library, resulting in improved code quality and reduced bugs.</li></Typography>
         </ExpansionPanelSummary>
         {/* <ExpansionPanelDetails>
           <Typography>
@@ -85,12 +85,12 @@ export default function CustomizedExpansionPanels() {
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography><li>Collaborated with UX/UI designers to make the app more user-friendly and responsive.</li></Typography>
+          <Typography><li>Refactored the backend API to simplify the process of adding new patient types, resulting in increased efficiency and reduced errors.</li></Typography>
         </ExpansionPanelSummary>
       </ExpansionPanel>
       <ExpansionPanel square expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
         <ExpansionPanelSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography><li>Fixed bugs and implemented enhancements that significantly improved web functionality and speed.</li></Typography>
+          <Typography><li>Architected and delivered a robust feature that enables students to seamlessly switch between multiple institutions, improving the overall user experience and satisfaction.</li></Typography>
         </ExpansionPanelSummary>
       </ExpansionPanel>
     </div>
